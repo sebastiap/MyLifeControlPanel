@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project has the following properties:
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This is my first project using Yarn instead of npm (Instructions below).
+* This project is incremental and based on https://github.com/ZainRk/React-Admin-Dashboard-public .
 
 ## Available Scripts
 
