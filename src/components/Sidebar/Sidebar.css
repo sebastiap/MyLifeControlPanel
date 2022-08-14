@@ -44,3 +44,12 @@
     border-radius: 0.7rem;
     font-size: 14px;
   }
+
+  .menuItem:hover{
+      cursor: pointer;
+  }
+
+  .active{
+      background-color:var(--activeItem);
+      margin-left:0;
+  }
