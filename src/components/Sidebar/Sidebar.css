@@ -53,3 +53,18 @@
       background-color:var(--activeItem);
       margin-left:0;
   }
+
+  .active::before{
+      content:'';
+      width:8px;
+      height: 100%;
+      background:var(--pink);
+      /* Para que quede exactamente a 1rem */
+      margin-right: calc(1rem - 8px);
+  }
+
+  .menu .menuItem:last-child {
+      position: absolute;
+      bottom: 2.3rem;
+      width: 100%;
+  }

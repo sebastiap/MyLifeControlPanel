@@ -28,6 +28,9 @@ return(
             </div>
           );
         })}
+        <div className="menuItem">
+        <UilSignOutAlt/>
+        </div>
     </div>
 </div>
 )
