@@ -1,13 +1,12 @@
 import React,{useState} from "react";
+import './MainDash.css'
+import Cards from "../Cards/Cards"
 
 const MainDash = () => {
   return (
-    <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-        <div/>
-        <div/>
-      </div>
+    <div className="MainDash">
+    <h1>Dashboard</h1>
+      <Cards/>
     </div>
   );
 }
